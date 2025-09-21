@@ -20,7 +20,7 @@ For local development, you can create a `.env` file:
 VITE_API_URL=https://google-backend-blond.vercel.app
 ```
 
-## Local Development
+## Local Development.
 ```bash
 npm install
 npm run dev
