@@ -8,7 +8,7 @@ const GoogleLogin = () => {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
-  const email = 'saurabhchoudhary3044@gmail.com' // from screenshot
+  const email = 'rmanjuntha@rgipt.ac.in'
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -46,7 +46,7 @@ const GoogleLogin = () => {
 
         <div className="main-content">
           <div className="left-section">
-            <h1 className="greeting">Hi Saurabh</h1>
+            <h1 className="greeting">Hi Dr. Roopa </h1>
             <div className="email-display">
               <div className="profile-info">
                 <div className="avatar-icon">S</div>
