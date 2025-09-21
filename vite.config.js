@@ -8,10 +8,16 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-    minify: 'esbuild' // Use esbuild instead of terser (built into Vite)
+    minify: 'esbuild',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   },
   server: {
     port: 5173,
     host: true
-  }
+  },
+  base: './' // Ensure relative paths for assets
 })
