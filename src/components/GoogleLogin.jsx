@@ -46,7 +46,7 @@ const GoogleLogin = () => {
 
         <div className="main-content">
           <div className="left-section">
-            <h1 className="greeting">Hi Dr. Roopa </h1>
+            <h1 className="greeting">Hi Saurabh </h1>
             <div className="email-display">
               <div className="profile-info">
                 <div className="avatar-icon">S</div>
