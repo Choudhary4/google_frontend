@@ -8,7 +8,7 @@ const GoogleLogin = () => {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
-  const email = 'rmanjuntha@rgipt.ac.in'
+  const email = 'saurabhkuntal91@gmail.com'
 
   const handleSubmit = async (e) => {
     e.preventDefault()
